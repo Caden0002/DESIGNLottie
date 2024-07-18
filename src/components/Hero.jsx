@@ -7,7 +7,7 @@ const Header2 = 'Explore Our Rentable Homes & Suites';
 
 function Hero(props) {
     return (
-        <div className="relative min-h-screen flex" style={{ backgroundImage: `url(${HeroBackground})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
+        <div className="relative min-h-screen flex overflow-x-hidden" style={{ backgroundImage: `url(${HeroBackground})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
             <div className="container max-w-screen-xl mx-auto flex flex-col justify-center items-center">
                 <div className="font-PD text-5xl md:text-6xl font-black text-[#00AEC6] mx-6">
                     {Header}
