@@ -15,7 +15,7 @@ module.exports = {
       },
 
       fontFamily: {
-        OldSTT: ['Old Standard TT', 'serif'],
+        PD: ['Playfair Display', 'serif'],
       },
 
       colors: {
